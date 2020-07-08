@@ -1,0 +1,12 @@
+.error {
+  font-size: 12px;
+  line-height: 15px;
+  color: #ff0000;
+  display: block;
+  box-sizing: border-box;
+  margin: 4px 0 15px 4px;
+}
+
+.error:first-of-type {
+  margin-top: 0;
+}
