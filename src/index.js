@@ -1,15 +1,16 @@
 "use strict";
 import "./pages/index.css";
-import {Api} from "./script/Api";
-import {Card} from "./script/Card";
-import {CardList} from "./script/CardList";
-import {FormValidator} from "./script/FormValidator";
-import {Popup} from "./script/Popup";
-import {UserInfo} from "./script/UserInfo";
+import { Api } from "./script/Api";
+import { Card } from "./script/Card";
+import { CardList } from "./script/CardList";
+import { FormValidator } from "./script/FormValidator";
+import { Popup } from "./script/Popup";
+import { UserInfo } from "./script/UserInfo";
 
 (function () {
   //переменные
-    const API_URL = NODE_ENV === 'production' ? 'https://praktikum.tk' : 'http://praktikum.tk';
+  const API_URL =
+    NODE_ENV === "production" ? "https://praktikum.tk" : "http://praktikum.tk";
   const api = new Api({
     baseUrl: `${API_URL}/cohort11`,
     headers: {
@@ -29,7 +30,6 @@ import {UserInfo} from "./script/UserInfo";
   const profileButton = document.querySelector(".user-info__profile-button");
   const avatarButton = document.querySelector(".user-info__photo");
   const increaseImage = function (event) {
-
     if (event.target.classList.contains("place-card__image")) {
       const link = event.target.style.backgroundImage.slice(5, -2);
       imagePopup.querySelector(".popup__image").setAttribute("src", link);
@@ -206,4 +206,3 @@ import {UserInfo} from "./script/UserInfo";
   profileButton.addEventListener("click", openProfilePopup);
   avatarButton.addEventListener("click", openAvatarPopup);
 })();
-
