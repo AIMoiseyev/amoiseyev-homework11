@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/AIMoiseyev/amoiseyev-homework11/issues"
   },
-  "homepage": "https://AIMoiseyev.github.io/amoiseyev-homework11#readme/",
+  "homepage": "https://AIMoiseyev.github.io/amoiseyev-homework11/",
   "devDependencies": {
     "@babel/cli": "^7.10.4",
     "@babel/core": "^7.10.4",
