@@ -1,5 +1,5 @@
 "use strict";
-class CardList {
+export class CardList {
   constructor(container, api, addInitialCards) {
     this.container = container;
     this.api = api;

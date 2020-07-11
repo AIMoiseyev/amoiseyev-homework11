@@ -1,5 +1,5 @@
 "use strict";
-class FormValidator {
+export class FormValidator {
   constructor(container) {
     this.container = container;
   }

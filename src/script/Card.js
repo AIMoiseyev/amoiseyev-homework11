@@ -1,5 +1,5 @@
 "use strict";
-class Card {
+export class Card {
   constructor(cardsArray, increaseImage, api) {
     this.cardsArray = cardsArray;
     this.image = this.cardsArray.link;

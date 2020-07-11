@@ -1,5 +1,5 @@
 "use strict";
-class UserInfo {
+export class UserInfo {
   constructor(container, api) {
     this.container = container;
     this.api = api;

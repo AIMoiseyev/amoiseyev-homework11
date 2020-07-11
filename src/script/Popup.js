@@ -1,5 +1,5 @@
 "use strict";
-class Popup {
+export class Popup {
   constructor(container, onClose) {
     this.container = container;
     this.onClose = onClose;
