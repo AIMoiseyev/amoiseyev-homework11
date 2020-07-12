@@ -1,7 +1,7 @@
 {
   "name": "amoiseyev-homework11",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.9",
+  "description": "study project for learning webpack and babel",
   "main": "index.js",
   "scripts": {
     "build": "rimraf dist && cross-env NODE_ENV=production webpack --mode production",
