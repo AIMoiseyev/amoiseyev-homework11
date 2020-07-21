@@ -3,9 +3,7 @@
 Версия 0.1.3
 
 ## Описание:
-В данном репозитории находится домашняя работа № 11 курса Яндекс.Практикум. Это проект для обучения и последующей настройки:
-- Wepbpack
-- Babel 
+В данном репозитории находится домашняя работа № 11 курса Яндекс.Практикум. Это Учебный проект по сборке и развертыванию приложения.
 
 ## Основной функционал: 
 - добавление/удаление карточек (на сервер/с сервера)
@@ -15,7 +13,13 @@
 - валидация форм при добавлении вышеперечисленных пунктов
 
 ## Стэк технологий:
-ES6, Babel, OOP, CSS3, HTML5, Webpack, OOP, BEM
+- ES6
+- Babel
+- OOP
+- CSS3
+- HTML5
+- Webpack
+- BEM
 
 ## Пакеты в сборке:
 - [Babel CLI](https://babeljs.io/docs/en/babel-cli#docsNav)
@@ -32,8 +36,8 @@ ES6, Babel, OOP, CSS3, HTML5, Webpack, OOP, BEM
 - [@babel/plugin-proposal-class-properties](https://babeljs.io/docs/en/babel-plugin-proposal-class-properties#installation)
 - [Autoprefixer](https://github.com/postcss/autoprefixer#readme)
 
-## Инструкция:
-1. Скачать или склонировать репозитори
+## Инструкция по запуску:
+1. Скачать или склонировать репозиторий
 2. Установить зависимости при помощи npm - `npm i`
 3. Запуск:
     - В режиме development - `npm run dev`
@@ -42,3 +46,7 @@ ES6, Babel, OOP, CSS3, HTML5, Webpack, OOP, BEM
 
 ## Github pages:
 https://aimoiseyev.github.io/amoiseyev-homework11/
+
+## Планы по развитию
+дописать серверную часть на Node.js
+
